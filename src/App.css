@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f4ef;
+}
+
+#root {
+  /* max-width: 1100px; */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.notice-area {
+  margin: 20px 0;
+}
+
+.flavor-list {
+  margin: 20px 0;
+}
+
+.order-summary {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.flavor-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.flavor-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
